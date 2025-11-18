@@ -1,0 +1,9 @@
+pm2 start index.js --name "bronx-bot" -start
+
+pm2 list - bot list
+
+pm2 restart bronx-bot -restart
+
+pm2 stop bronx-bot - stop
+
+pm2 save - i guess save
